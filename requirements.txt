@@ -4,9 +4,10 @@ scikit-learn
 matplotlib
 seaborn
 jupyterlab
-flask
-streamlit==1.32.0
+flask==2.2.5
+streamlit==1.29.0
 ipykernel
-imbalanced-learn==0.11.0
+imbalanced-learn==0.10.1
 requests==2.31.0
 altair==4.2.2
+pillow==9.5.0
