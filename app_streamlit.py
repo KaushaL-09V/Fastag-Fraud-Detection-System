@@ -39,7 +39,7 @@ if st.button("Predict"):
         "Longitude": longitude
     }
 
-    response = requests.post("http://127.0.0.1:5000/predict", json=data)
+    response = requests.post("https://fastag-fraud-detection-system.onrender.com/predict", json=data)
 
     result = response.json()['prediction']
 
